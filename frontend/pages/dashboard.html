@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Dashboard</title>
+
+<link rel="stylesheet"
+href="../css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<aside class="sidebar">
+
+<h2>SkillPath AI</h2>
+
+<ul>
+
+<li>Dashboard</li>
+
+<li>
+<a href="saved.html">
+Saved Roadmaps
+</a>
+</li>
+
+<li>
+<a href="/index.html">
+Home
+</a>
+</li>
+
+</ul>
+
+</aside>
+
+<main class="main-content">
+
+<div class="top-bar">
+
+<h1>Create Roadmap</h1>
+
+<button id="themeToggle">
+🌙
+</button>
+
+</div>
+
+<div class="card">
+
+<label>
+Career Goal
+</label>
+
+<select id="goal">
+
+<option>Frontend Developer</option>
+
+<option>Backend Developer</option>
+
+<option>Full Stack Developer</option>
+
+<option>AI Engineer</option>
+
+<option>Data Analyst</option>
+
+<option>Cyber Security Engineer</option>
+
+</select>
+
+<label>
+Current Skill Level
+</label>
+
+<select id="level">
+
+<option>Beginner</option>
+
+<option>Intermediate</option>
+
+<option>Advanced</option>
+
+</select>
+
+<label>
+Study Hours Per Week
+</label>
+
+<input
+type="number"
+id="hours"
+placeholder="10">
+
+<label class="toggle-row">
+
+<input
+type="checkbox"
+id="freeOnly">
+
+Free Resources Only
+
+</label>
+
+<button
+id="generateBtn"
+class="generate-btn">
+
+Generate Roadmap
+
+</button>
+
+<div id="loading">
+    <div class="spinner"></div>
+<p>Generating your roadmap...</p>
+
+</div>
+
+</div>
+
+</main>
+
+</div>
+
+<script src="../js/theme.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/gemini.js"></script>
+
+</body>
+</html>

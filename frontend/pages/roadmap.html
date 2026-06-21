@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>Roadmap</title>
+
+<link rel="stylesheet"
+href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="main-content">
+    <a href="dashboard.html">
+    <button class="back-btn">
+        ← Back to Dashboard
+    </button>
+</a>
+
+<br><br>
+
+<h1>Your Learning Roadmap</h1>
+
+<br>
+
+<button id="downloadBtn" class="download-btn">
+Download Roadmap PDF
+</button>
+
+<br><br>
+<div class="progress-section">
+
+<h3 id="progressText">
+Progress: 0%
+</h3>
+
+<div class="progress-bar">
+
+<div
+id="progressFill"
+class="progress-fill">
+</div>
+
+</div>
+
+</div>
+
+<br>
+<div id="statsContainer" class="stats-grid"></div>
+
+<br>
+<div id="roadmapContainer">
+
+</div>
+
+</div>
+
+<script src=
+"https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js">
+</script>
+
+<script src="../js/roadmap.js"></script>
+
+</body>
+
+</html>
