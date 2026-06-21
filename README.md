@@ -50,7 +50,6 @@ SkillPath AI is an AI-powered career roadmap generator that helps learners creat
 
 * Works across desktop and mobile devices
 
----
 
 ## 🛠️ Tech Stack
 
@@ -69,7 +68,6 @@ SkillPath AI is an AI-powered career roadmap generator that helps learners creat
 
 * Google Gemini 2.5 Flash API
 
----
 
 ## 🎮 How It Works
 
@@ -82,7 +80,6 @@ SkillPath AI is an AI-powered career roadmap generator that helps learners creat
 7. Save and revisit roadmaps anytime.
 8. Export roadmaps as PDF documents.
 
----
 
 ## 🚀 Future Enhancements
 
@@ -92,22 +89,3 @@ SkillPath AI is an AI-powered career roadmap generator that helps learners creat
 * AI-powered roadmap updates
 * Community roadmap marketplace
 
----
-
-## 🎯 Hackathon Theme Alignment
-
-This project aligns with:
-
-* AI in Educational Tools
-* Daily Productivity
-* Open Innovation
-
-SkillPath AI helps students and self-learners build clear learning paths, reducing confusion and improving productivity in skill development.
-
----
-
-## 👨‍💻 Developer
-
-Developed as part of a Hackathon.
-
-Built using HTML, CSS, JavaScript, Express.js, and Gemini AI.
